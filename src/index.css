@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+#root {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+@theme {
+  --color-rabbit-red: #ea2e0e
+}
+button {
+  cursor: pointer;
+}
+/* Thin and minimal scrollbar */
+::-webkit-scrollbar {
+  width: 4px; /* Extra thin width */
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* No track background */
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 100, 100, 0.5); /* Subtle thumb color */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 100, 100, 0.8); /* Darker on hover */
+}
+
+
+
+
